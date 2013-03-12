@@ -157,5 +157,10 @@ public class VarastoTest {
         
         assertEquals("saldo = 3.0, vielä tilaa 7.0", varasto.toString());
     }
+    
+    @Test
+    public void jenkinsPollingHookTesti() {
+        assertTrue("Maailma on epätosi... ", false);
+    }
 }
 
