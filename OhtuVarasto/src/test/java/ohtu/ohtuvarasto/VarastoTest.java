@@ -151,11 +151,19 @@ public class VarastoTest {
         assertEquals(3.0, varasto.getSaldo(), vertailuTarkkuus);
     }
     
+    
     @Test
     public void merkkiEsitysOikeanMuotoinen() {
         varasto.lisaaVarastoon(3.0);
         
         assertEquals("saldo = 3.0, vielä tilaa 7.0", varasto.toString());
+    }
+    
+    
+    
+    @Test
+    public void feilaavaTesti() {
+        assertTrue("Odotin että maailma on totta!", false);
     }
 }
 
